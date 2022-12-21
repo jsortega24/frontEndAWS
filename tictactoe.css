@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa:wght@700&family=Luckiest+Guy&family=Source+Code+Pro&display=swap');
+
+*{
+    font-family: 'luckiest guy' , cursive;
+    font-size:110%;
+    text-align:center;
+    background-color: #e0f2e9 !important;
+    color: #5b7c7a;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.ticGame{
+    text-align: center;    
+}
+
+.board{
+    width:450px;
+    height:450px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e0f2e9;
+
+}
+
+.tile{
+    width:147px;
+    height:147px;
+    font-size:150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #e0f2e9;
+
+}
+
+.horizontal-line{
+    border-bottom: 3px solid black;
+
+}
+
+.vertical-line{
+    border-right: 3px solid black;
+}
+
+.winner{
+    background-color: yellow;
+    color: green
+
+}
+
+.refreshContainer{
+    background-color: #e0f2e9;
+ 
+}
+.refreshButton{
+    border: dashed 5px #ceb5a7 ;
+
+}
+
+button:hover{                
+      cursor:pointer;
+          background-color: #a17c6b;
+          color:aliceblue;
+          transition-duration: 0.4s;
+}
+

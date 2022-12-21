@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa:wght@700&family=Luckiest+Guy&family=Source+Code+Pro&display=swap');
+
+
+* {
+    font-family: 'luckiest guy' , cursive;
+    font-size:110%;
+          text-align:center;
+          background-color: #e0f2e9;
+          color: #5b7c7a;
+}
+    
+.testContainer{
+    display:flex;
+    flex-direction:column;
+    /* max-width:75%; */
+    /* justify-content:center;
+    /* row-gap:5px; */
+    /* margin: 0; */
+    /* width:100%; */
+    /* position: absolute center; */
+    /* padding-bottom: 20%;  */
+
+}
+
+.marquee {
+    border: 6px dashed #ceb5a7;
+    ;
+}
+
+.hello {
+    color: #3c887e ;
+}
+
+.Sit {
+    border: dotted 4px #ceb5a7;
+    ;
+}
+
+.weWelcome {
+    color: #a17c6b ;
+ 
+}

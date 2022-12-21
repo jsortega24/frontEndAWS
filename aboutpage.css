@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa:wght@700&family=Luckiest+Guy&family=Source+Code+Pro&display=swap');
+
+
+*{
+  font-family: 'luckiest guy' , cursive;
+      font-size:110%;
+    text-align:center;
+    background-color: #e0f2e9;
+    color: #5b7c7a;
+}
+
+body {
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 5px;
+    text-align: center;
+    border: solid 10px;
+    border-color: #ceb5a7;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+    border: dotted 10px;
+    border-color: #ceb5a7;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }

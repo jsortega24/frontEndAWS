@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa:wght@700&family=Luckiest+Guy&family=Source+Code+Pro&display=swap');
+
+
+*{
+  font-family: 'luckiest guy' , cursive;
+          font-size:110%;
+          text-align:center;
+          background-color:#e0f2e9;
+          color: #5b7c7a;
+      }
+   body {
+    background-color: #e0f2e9;
+   }
+   
+      .parentDiv {
+          display:flex;
+          flex-direction:column;
+          max-width:50%;
+          justify-content:center;
+          row-gap:30px;
+          margin: auto;
+
+
+        }
+        .topSection{
+            border: dotted 5px #a17c6b ;
+            align-self: center;
+            justify-content:center;
+            margin: auto;
+            row-gap:30px;
+
+        
+        
+        
+           }
+      .jokeDiv {
+          display:flex;
+          align-self:center;
+          flex-direction: column;
+          justify-content:center;
+          row-gap:30px;
+      }
+      .jokeBtn{
+
+          padding: 12px 18px;
+          border-radius:10px;
+          width:25%;
+          justify-content:center;
+          align-self:center;
+          border: dashed 5px #ceb5a7 ;
+
+
+          /* margin-top:50px; */
+          
+      }
+      .jokeBtn:hover{
+          cursor:pointer;
+          background-color: #a17c6b;
+          color:aliceblue;
+          transition-duration: 0.4s;
+          
+      }
+      .punchlineBtn{
+          display:flex;
+          justify-content:center;
+          align-self:center;
+          padding: 10px 24px;
+          border-radius:10px;
+          
+          
+      }
+      .punchlineBtn:hover{
+          cursor:pointer;
+          background-color: black;
+          color:aliceblue;
+          transition-duration: 0.4s;
+      }
+      .remBtn{
+        display:flex;
+          justify-content:center;
+          align-self:center;
+          padding: 8px 17px;
+          border-radius:50%;
+          margin-bottom:5px;
+          color:aliceblue;
+          background-color:red;
+          border:none;
+          font-family:'Comfortaa', cursive;
+          font-size:90%;
+          font-style: bold;
+          
+      }
+      .remBtn:hover{
+          cursor:pointer;
+          background-color: black;
+          color:aliceblue;
+          transition-duration: 0.4s;
+      }
+
+     
+      
